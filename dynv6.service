@@ -1,0 +1,13 @@
+[Unit]
+Description=Update vom Nameserver          
+After=syslog.target network.target
+
+[Service]
+User=name
+WorkingDirectory=/home/.../
+ExecStart=/home/.../main.py
+SyslogIdentifier=dynv6
+StandardOutput=syslog
+StandardError=syslog
+Restart=on-failure
+RestartSec=1m

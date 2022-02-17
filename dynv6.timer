@@ -1,0 +1,10 @@
+[Unit]
+Description=Update every hour (*:50) the ip of in the nameserver of dynv6
+
+[Timer]
+OnCalendar=*-*-* :50:20
+OnBootSec=3m
+RandomizedDelaySec=10m
+[Install]
+
+WantedBy=timers.target

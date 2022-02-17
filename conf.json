@@ -1,0 +1,10 @@
+{
+    "updatelist": [
+        {
+            "zone": "yourzonedomain.tld",
+            "sub": "sub(withoutdomain)",
+            "records": ["AAAA", "A"],
+            "nameserver": ["ns1.dynv6.com", "ns2.dynv6.com", "ns3.dynv6.com"]
+        }
+    ]
+}
